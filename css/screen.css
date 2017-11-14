@@ -1,6 +1,9 @@
 /*-------------------------------*/
 /*- Border Boxes Only           -*/
 /*-------------------------------*/
+h1 {
+	text-align: center;
+}
 * {
 		box-sizing: border-box;
 }
@@ -37,16 +40,7 @@
 
 .blog .main {
 	padding: 10px 10px;
-	float: left;
-	width: 62.8888889%;  /* 566px / 900px */
-	height: max-height;
-	border: 1px solid black;
-}
-
-.blog .other {
-	padding: 10px 10px;
-	float: right;
-	width: 36.7777778%;  /*331px / 900*/
+	width: 93.75%;  /* 566px / 900px */
 	height: max-height;
 	border: 1px solid black;
 }
