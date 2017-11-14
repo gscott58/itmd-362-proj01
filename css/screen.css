@@ -9,7 +9,7 @@
 	width:  90%;                  /* set page width 90 percent of browser viewport */
 	height: 880px;                /* reasonable page length */
 	border: 1px solid black;      /* frame the page        */
-	background-image: url("../img/first-touch-down.jpg");
+	background-image: url("../img/pexels-photo-164693.jpg");
 	background-size: cover;       /*set bg image cover entire page */
 	backgroung-repeat: no-repeat; /* do not repeat bg image */
 	color: #ffffff;               /* contrast bg image by changing fornt color to white */
