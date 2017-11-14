@@ -1,2 +1,2 @@
-# itmd-362-proj01
-ITMD 362 Human Computer Interactions
+# itmd-361-Marcotte
+Ethan Marcotte Responsive Web Design
