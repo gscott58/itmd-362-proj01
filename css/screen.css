@@ -4,6 +4,22 @@
 * {
 		box-sizing: border-box;
 }
+label,
+input,
+#join-now
+{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 125px;
+}
+
+#submit {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}   
+
 h1 {
 	text-align: center;
 }
@@ -17,14 +33,14 @@ h1 {
 	color: #ffffff;               /* contrast bg image by changing fornt color to white */
 	opacity: 1.0;	/* set bg image to full opacity */
 	border: 2px solid red;      /* frame the page        */
-	}
+}
 
 @media screen and (max-width: 768px) {
 	.page {
 		position: relative;
 		margin: 20px;
 		width: auto;
-	}
+}
 	.welcome,
 	.blog,
 	.gallery {
@@ -36,8 +52,8 @@ h1 {
 .blog {
 	margin: 36px auto;
 	width:  93.75%;
-	height: max-height;
-	border: 1px solid black;
+	height: 45%;
+	/*border: 1px solid black;*/      /* frame the page        */
 }
 
 .lede {
@@ -59,12 +75,14 @@ h1 {
 
 #dateonscreen {
 	float: left;
-	margin-left:  -30px;
-	margin-bottom: 5px;	    
+	margin-left:  40px;
+	margin-top:  -40px;
+	margin-bottom: 0px;	    
 	width:         69px;           
 	background-color: #000000;
 	color: #ffffff;;
 }
+
 #monthname, #dayofmonth {
 	padding: 5px;
 	margin:  0px;
@@ -82,6 +100,7 @@ object,
 video {
 	max-width: 100%;
 }
+
 .main-title {
 	background: #000;
 	color:      #fff;
