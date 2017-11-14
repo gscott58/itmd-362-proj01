@@ -1,23 +1,24 @@
 /*-------------------------------*/
 /*- Border Boxes Only           -*/
 /*-------------------------------*/
-h1 {
-	text-align: center;
-}
 * {
 		box-sizing: border-box;
+}
+h1 {
+	text-align: center;
 }
 .page {
 	margin: 36px auto;
 	width:  90%;                  /* set page width 90 percent of browser viewport */
 	height: 880px;                /* reasonable page length */
-	border: 1px solid black;      /* frame the page        */
 	background-image: url("../img/pexels-photo-164693.jpg");
 	background-size: cover;       /*set bg image cover entire page */
 	backgroung-repeat: no-repeat; /* do not repeat bg image */
 	color: #ffffff;               /* contrast bg image by changing fornt color to white */
-	opacity: 1.0;                 /* set bg image to full opacity */
-}
+	opacity: 1.0;	/* set bg image to full opacity */
+	border: 2px solid red;      /* frame the page        */
+	}
+
 @media screen and (max-width: 768px) {
 	.page {
 		position: relative;
@@ -31,16 +32,10 @@ h1 {
 		width: auto;
 	}
 }
+
 .blog {
 	margin: 36px auto;
 	width:  93.75%;
-	height: max-height;
-	border: 1px solid black;
-}
-
-.blog .main {
-	padding: 10px 10px;
-	width: 93.75%;  /* 566px / 900px */
 	height: max-height;
 	border: 1px solid black;
 }
