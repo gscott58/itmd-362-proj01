@@ -5,56 +5,58 @@
 		<meta charset="UTF-8">
 		<title>Greg Guitars</title>
 		<link rel="stylesheet" href="css/screen.css">
+		<link href="http://fonts.googleapis.com/css?family=Lato:300|Grand+Hotel" rel="stylesheet" type="text/css" />
 		<meta name="viewport" content="initial-scale=1.0,width=device-width">
 	</head>
-
+	
 	<body>
 		<div class="page">
+		
 			<div class="blog">
 				<h1 class="main-title">Greg Guitars</h1>
-
-					<div id="dateonscreen">
-								<p id="dayofmonth"></p>
-								<p id="monthname"></p>
-					</div>
-					
-					<script src="js/getmonth-getdate.js"></script>
-					
-					<article class="article">
-						<p>Whether your style is rhythm, lead, bass or a mixture of the three!  Whether your player status is beginner, intermediate, or a seasoned pro.  Whether your genre is soul, rock, blues, country western, pop, or metal; we here at Greg Guitars want you to join our club!  Becoming a Greg Guitars club member, is not about what you don’t know, but about what you do know and what you can contribute.  Each month one lucky club member is selected to receive $1500 of the guitar gear of their choice.
-						</p>
+				
+				<div id="dateonscreen">
+					<p id="dayofmonth"></p>
+					<p id="monthname"></p>
+				</div>
+				
+				<script src="js/getmonth-getdate.js"></script>
+				
+				<article class="article">
+				
+					<p>Whether your style is rhythm, lead, bass or a mixture of the three!  Whether your player status is beginner, intermediate, or a seasoned pro.  Whether your genre is soul, rock, blues, country western, pop, or metal; we here at Greg Guitars want you to join our club!  Becoming a Greg Guitars club member, is not about what you don’t know, but about what you do know and what you can contribute.  Each month one lucky club member is selected to receive $1500 of the guitar gear of their choice.
+					</p>
+					<div class="formfields">
+					<div id="join-now">Join Now!</div>
+						<form id="customer" action="#" method="get" onsubmit="myFunction()">
+							<formset>
+								<label for="email"><strong>Email</strong></label>
+								<input id="email" name="email" type="email" autofocus required>
+								<label for="password"><strong>Password</strong></label>
+								<input id="password" name="password" type="password" required>
+								<label for="firstname"><strong>Firstname</strong></label>
+								<input id="firstname" name="firstname" type="text" required>
+								<label for="lastname"><strong>Lastname</strong></label>
+								<input id="lastname" name="lastname" type="text" required>
+								<input id="submit" type="submit" value="Add Guitarist">
+							</formset>
+						</form>
+						</div>
+						
 					</article>
 			</div>
 			
-			<div id="join-now">Join Now!</div>
-			
-			<form id="customer" action="#" method="get" onsubmit="myFunction()">
-				<formset>
-					<label for="email"><strong>Email</strong></label>
-					<input id="email" name="email" type="email" size="35" autofocus required>
-					<label for="password"><strong>Password</strong></label>
-					<input id="password" name="password" type="password" required>
-					<label for="firstname"><strong>Firstname</strong></label>
-					<input id="firstname" name="firstname" type="text" required>
-					<label for="lastname"><strong>Lastname</strong></label>
-					<input id="lastname" name="lastname" type="text" required>
-					<input id="submit" type="submit" value="Add Guitarist">
-				</formset>
-			</form>
-
 			<script src="js/thankyou-alert.js"></script>
-
-			</div>
-		<main>
+			
+		</div>
 		
-
+		<main>
 		</main>
-
+		
 		<footer>
 			<p><strong>©Copyright</strong> 2017 by Greg Guitars. All rights reserved.</p>
 		</footer>
 	</body>
-	
 </html>
 	
 	
