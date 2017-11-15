@@ -5,15 +5,20 @@
 		box-sizing: border-box;
 }
 label,
-input,
-#join-now
+input
 {
 	display: block;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-left: 125px;
 }
-
+#join-now
+{
+	margin-top: 5px;
+	margin-bottom: 25px;
+	margin-left: 125px;
+	font-size: 2em;
+}
 #submit {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -52,7 +57,7 @@ h1 {
 .blog {
 	margin: 36px auto;
 	width:  93.75%;
-	height: 45%;
+	height: 35%;
 	/*border: 1px solid black;*/      /* frame the page        */
 }
 
@@ -78,14 +83,14 @@ h1 {
 	margin-left:  40px;
 	margin-top:  -40px;
 	margin-bottom: 0px;	    
-	width:         69px;           
+	width:         80px;           
 	background-color: #000000;
 	color: #ffffff;;
 }
 
 #monthname, #dayofmonth {
-	padding: 5px;
-	margin:  0px;
+	padding: 0px;
+	margin:  1px;
 	text-align: center;
 }
 .figure {
@@ -102,7 +107,6 @@ video {
 }
 
 .main-title {
-	background: #000;
 	color:      #fff;
 	font: normal 3.625em/0.9 "League Gothic", "Areial Narrow", Arial, sans-serif;  /* 58px / 16px */
 	text-transform: uppercase;
