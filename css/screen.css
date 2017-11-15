@@ -1,8 +1,37 @@
-/*-------------------------------*/
-/*- Border Boxes Only           -*/
-/*-------------------------------*/
+/*---------------------------*/
+/*- Apply Google Fonts Here -*/
+/*---------------------------*/
+h1,
+#join-now {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 46px;
+    margin: 0 0 23px 0;
+		color: #00FFFF;
+    }
+h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+		color: #FFFFFF;
+    }
+p	{
+    font-family: 'Lato', sans-serif;
+		font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+		color: #FFFFFF;
+    }
+/*--------------------*/
+/*- End Google Fonts -*/
+/*--------------------*/
+
 * {
-		box-sizing: border-box;
+		box-sizing: border-box;   /*- Use Border Boxes Only  -*/
 }
 label,
 input
@@ -10,36 +39,39 @@ input
 	display: block;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin-left: 125px;
 }
 #join-now
 {
-	margin-top: 5px;
-	margin-bottom: 25px;
-	margin-left: 125px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	font-size: 2em;
+	color: #FFFFFF;
 }
 #submit {
 	margin-top: 20px;
 	margin-bottom: 20px;
-
+	background-color: #00FFFF;
 }   
-
 h1 {
 	text-align: center;
+	back-ground-color: #00FFFF;
 }
 .page {
 	margin: 36px auto;
-	width:  90%;                  /* set page width 90 percent of browser viewport */
-	height: 880px;                /* reasonable page length */
+	width:  100%;                  /* set page width 90 percent of browser viewport */
+	height: autopx;                /* reasonable page length */
 	background-image: url("../img/pexels-photo-164693.jpg");
-	background-size: cover;       /*set bg image cover entire page */
-	backgroung-repeat: no-repeat; /* do not repeat bg image */
-	color: #ffffff;               /* contrast bg image by changing fornt color to white */
-	opacity: 1.0;	/* set bg image to full opacity */
-	border: 2px solid red;      /* frame the page        */
+	background-size: cover;         /*set bg image cover entire page */
+	backgroung-repeat: no-repeat;   /* do not repeat bg image */
+	color: #ffffff;                 /* contrast bg image by changing fornt color to white */
+	opacity: 1.0;                 	/* set bg image to full opacity */
+	border: 2px solid red;          /* frame the page        */
 }
-
+.formfields {
+	margin: 36px auto;
+	max-width:  100%;	/* set page width 90 percent of browser viewport */
+	max-height: 100%                /* reasonable page length */
+}
 @media screen and (max-width: 768px) {
 	.page {
 		position: relative;
@@ -55,7 +87,7 @@ h1 {
 }
 
 .blog {
-	margin: 36px auto;
+	margin: 75px auto;
 	width:  93.75%;
 	height: 35%;
 	/*border: 1px solid black;*/      /* frame the page        */
@@ -85,7 +117,7 @@ h1 {
 	margin-bottom: 0px;	    
 	width:         80px;           
 	background-color: #000000;
-	color: #ffffff;;
+	color: #ffffff;
 }
 
 #monthname, #dayofmonth {
@@ -106,11 +138,6 @@ video {
 	max-width: 100%;
 }
 
-.main-title {
-	color:      #fff;
-	font: normal 3.625em/0.9 "League Gothic", "Areial Narrow", Arial, sans-serif;  /* 58px / 16px */
-	text-transform: uppercase;
-}
 @media screen and (max-width: 768px) {
 	.main-title {
 		font: normal 1.5em Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, Helvetica, sans-serif; /* 24px / 16px */
