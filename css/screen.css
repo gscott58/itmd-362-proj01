@@ -54,15 +54,15 @@ input
 }   
 h1 {
 	text-align: center;
-	back-ground-color: #00FFFF;
+	background-color: #00FFFF;
 }
 .page {
 	margin: 36px auto;
-	width:  100%;                  /* set page width 90 percent of browser viewport */
-	height: autopx;                /* reasonable page length */
+	width:  100%;                   /* set page width 90 percent of browser viewport */
+	height: auto;                   /* reasonable page length */
 	background-image: url("../img/pexels-photo-164693.jpg");
 	background-size: cover;         /*set bg image cover entire page */
-	backgroung-repeat: no-repeat;   /* do not repeat bg image */
+	background-repeat: no-repeat;   /* do not repeat bg image */
 	color: #ffffff;                 /* contrast bg image by changing fornt color to white */
 	opacity: 1.0;                 	/* set bg image to full opacity */
 	border: 2px solid red;          /* frame the page        */
@@ -106,7 +106,7 @@ h1 {
 }
 
 .article {
-	height:  max-height;
+	max-height:  100%;
 	padding: 40px 8.48056537%;  /* 48px / 566px */
 }
 
@@ -143,27 +143,3 @@ video {
 		font: normal 1.5em Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, Helvetica, sans-serif; /* 24px / 16px */
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
